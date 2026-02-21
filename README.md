@@ -15,7 +15,7 @@ Aggregated order book viewer for prediction markets. Combines liquidity from **P
 backend/    Express + WebSocket server — connects to Polymarket & DFlow,
             normalizes order books, broadcasts to frontend clients
 
-frontend/   Next.js 16 + React 19 — real-time order book table, D3 depth
+frontend/   Next.js 16 + React 19 — real-time order book,depth
             chart, and quote calculator with protocol-level breakdown
 ```
 
